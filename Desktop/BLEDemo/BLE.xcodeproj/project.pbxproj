@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1848C6051CD840BD002FAC4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1848C6041CD840BD002FAC4A /* main.m */; };
+		1848C6081CD840BE002FAC4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1848C6071CD840BE002FAC4A /* AppDelegate.m */; };
+		1848C60E1CD840BE002FAC4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1848C60C1CD840BE002FAC4A /* Main.storyboard */; };
+		1848C6101CD840BE002FAC4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1848C60F1CD840BE002FAC4A /* Assets.xcassets */; };
+		1848C6131CD840BE002FAC4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1848C6111CD840BE002FAC4A /* LaunchScreen.storyboard */; };
+		1848C6431CD8471C002FAC4A /* scanf@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1848C6421CD8471C002FAC4A /* scanf@2x.png */; };
+		1848C6451CD84FEA002FAC4A /* scan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1848C6441CD84FE9002FAC4A /* scan@2x.png */; };
+		1848C6481CD850AD002FAC4A /* VC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1848C6471CD850AD002FAC4A /* VC1.m */; };
+		1848C6621CD85262002FAC4A /* checkerboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 1848C64A1CD85262002FAC4A /* checkerboard.png */; };
+		1848C6631CD85262002FAC4A /* checkerboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1848C64B1CD85262002FAC4A /* checkerboard@2x.png */; };
+		1848C6641CD85262002FAC4A /* colorPickerKnob.png in Resources */ = {isa = PBXBuildFile; fileRef = 1848C64C1CD85262002FAC4A /* colorPickerKnob.png */; };
+		1848C6651CD85262002FAC4A /* colorPickerKnob@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1848C64D1CD85262002FAC4A /* colorPickerKnob@2x.png */; };
+		1848C6661CD85262002FAC4A /* HSV.c in Sources */ = {isa = PBXBuildFile; fileRef = 1848C64E1CD85262002FAC4A /* HSV.c */; };
+		1848C6671CD85262002FAC4A /* KZColorCompareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1848C6511CD85262002FAC4A /* KZColorCompareView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1848C6681CD85262002FAC4A /* KZColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1848C6531CD85262002FAC4A /* KZColorPicker.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1848C6691CD85262002FAC4A /* KZColorPickerAlphaSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1848C6551CD85262002FAC4A /* KZColorPickerAlphaSlider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1848C66A1CD85262002FAC4A /* KZColorPickerBrightnessSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1848C6571CD85262002FAC4A /* KZColorPickerBrightnessSlider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1848C66B1CD85262002FAC4A /* KZColorPickerHSWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1848C6591CD85262002FAC4A /* KZColorPickerHSWheel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1848C66C1CD85262002FAC4A /* KZColorPickerSwatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1848C65B1CD85262002FAC4A /* KZColorPickerSwatchView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1848C66D1CD85262002FAC4A /* KZUnitSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1848C65D1CD85262002FAC4A /* KZUnitSlider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1848C66E1CD85262002FAC4A /* pickerColorWheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 1848C65E1CD85262002FAC4A /* pickerColorWheel.png */; };
+		1848C66F1CD85262002FAC4A /* pickerColorWheel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1848C65F1CD85262002FAC4A /* pickerColorWheel@2x.png */; };
+		1848C6701CD85262002FAC4A /* UIColor-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 1848C6611CD85262002FAC4A /* UIColor-Expanded.m */; };
+		1848C6761CD87BA9002FAC4A /* BLETool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1848C6751CD87BA9002FAC4A /* BLETool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1848C6001CD840BD002FAC4A /* BLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1848C6041CD840BD002FAC4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1848C6061CD840BD002FAC4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1848C6071CD840BE002FAC4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1848C60D1CD840BE002FAC4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1848C60F1CD840BE002FAC4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1848C6121CD840BE002FAC4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1848C6141CD840BE002FAC4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1848C6421CD8471C002FAC4A /* scanf@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanf@2x.png"; sourceTree = "<group>"; };
+		1848C6441CD84FE9002FAC4A /* scan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scan@2x.png"; sourceTree = "<group>"; };
+		1848C6461CD850AD002FAC4A /* VC1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC1.h; sourceTree = "<group>"; };
+		1848C6471CD850AD002FAC4A /* VC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC1.m; sourceTree = "<group>"; };
+		1848C64A1CD85262002FAC4A /* checkerboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkerboard.png; sourceTree = "<group>"; };
+		1848C64B1CD85262002FAC4A /* checkerboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkerboard@2x.png"; sourceTree = "<group>"; };
+		1848C64C1CD85262002FAC4A /* colorPickerKnob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorPickerKnob.png; sourceTree = "<group>"; };
+		1848C64D1CD85262002FAC4A /* colorPickerKnob@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "colorPickerKnob@2x.png"; sourceTree = "<group>"; };
+		1848C64E1CD85262002FAC4A /* HSV.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HSV.c; sourceTree = "<group>"; };
+		1848C64F1CD85262002FAC4A /* HSV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSV.h; sourceTree = "<group>"; };
+		1848C6501CD85262002FAC4A /* KZColorCompareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorCompareView.h; sourceTree = "<group>"; };
+		1848C6511CD85262002FAC4A /* KZColorCompareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorCompareView.m; sourceTree = "<group>"; };
+		1848C6521CD85262002FAC4A /* KZColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPicker.h; sourceTree = "<group>"; };
+		1848C6531CD85262002FAC4A /* KZColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPicker.m; sourceTree = "<group>"; };
+		1848C6541CD85262002FAC4A /* KZColorPickerAlphaSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPickerAlphaSlider.h; sourceTree = "<group>"; };
+		1848C6551CD85262002FAC4A /* KZColorPickerAlphaSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPickerAlphaSlider.m; sourceTree = "<group>"; };
+		1848C6561CD85262002FAC4A /* KZColorPickerBrightnessSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPickerBrightnessSlider.h; sourceTree = "<group>"; };
+		1848C6571CD85262002FAC4A /* KZColorPickerBrightnessSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPickerBrightnessSlider.m; sourceTree = "<group>"; };
+		1848C6581CD85262002FAC4A /* KZColorPickerHSWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPickerHSWheel.h; sourceTree = "<group>"; };
+		1848C6591CD85262002FAC4A /* KZColorPickerHSWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPickerHSWheel.m; sourceTree = "<group>"; };
+		1848C65A1CD85262002FAC4A /* KZColorPickerSwatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPickerSwatchView.h; sourceTree = "<group>"; };
+		1848C65B1CD85262002FAC4A /* KZColorPickerSwatchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPickerSwatchView.m; sourceTree = "<group>"; };
+		1848C65C1CD85262002FAC4A /* KZUnitSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZUnitSlider.h; sourceTree = "<group>"; };
+		1848C65D1CD85262002FAC4A /* KZUnitSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZUnitSlider.m; sourceTree = "<group>"; };
+		1848C65E1CD85262002FAC4A /* pickerColorWheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pickerColorWheel.png; sourceTree = "<group>"; };
+		1848C65F1CD85262002FAC4A /* pickerColorWheel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pickerColorWheel@2x.png"; sourceTree = "<group>"; };
+		1848C6601CD85262002FAC4A /* UIColor-Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-Expanded.h"; sourceTree = "<group>"; };
+		1848C6611CD85262002FAC4A /* UIColor-Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Expanded.m"; sourceTree = "<group>"; };
+		1848C6741CD87BA9002FAC4A /* BLETool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLETool.h; sourceTree = "<group>"; };
+		1848C6751CD87BA9002FAC4A /* BLETool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLETool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1848C5FD1CD840BD002FAC4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1848C5F71CD840BD002FAC4A = {
+			isa = PBXGroup;
+			children = (
+				1848C6021CD840BD002FAC4A /* BLE */,
+				1848C6011CD840BD002FAC4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1848C6011CD840BD002FAC4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1848C6001CD840BD002FAC4A /* BLE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1848C6021CD840BD002FAC4A /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				1848C6491CD85262002FAC4A /* ColorPicker */,
+				1848C6421CD8471C002FAC4A /* scanf@2x.png */,
+				1848C6441CD84FE9002FAC4A /* scan@2x.png */,
+				1848C6741CD87BA9002FAC4A /* BLETool.h */,
+				1848C6751CD87BA9002FAC4A /* BLETool.m */,
+				1848C6061CD840BD002FAC4A /* AppDelegate.h */,
+				1848C6071CD840BE002FAC4A /* AppDelegate.m */,
+				1848C6461CD850AD002FAC4A /* VC1.h */,
+				1848C6471CD850AD002FAC4A /* VC1.m */,
+				1848C60C1CD840BE002FAC4A /* Main.storyboard */,
+				1848C60F1CD840BE002FAC4A /* Assets.xcassets */,
+				1848C6111CD840BE002FAC4A /* LaunchScreen.storyboard */,
+				1848C6141CD840BE002FAC4A /* Info.plist */,
+				1848C6031CD840BD002FAC4A /* Supporting Files */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		1848C6031CD840BD002FAC4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1848C6041CD840BD002FAC4A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1848C6491CD85262002FAC4A /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				1848C64A1CD85262002FAC4A /* checkerboard.png */,
+				1848C64B1CD85262002FAC4A /* checkerboard@2x.png */,
+				1848C64C1CD85262002FAC4A /* colorPickerKnob.png */,
+				1848C64D1CD85262002FAC4A /* colorPickerKnob@2x.png */,
+				1848C64E1CD85262002FAC4A /* HSV.c */,
+				1848C64F1CD85262002FAC4A /* HSV.h */,
+				1848C6501CD85262002FAC4A /* KZColorCompareView.h */,
+				1848C6511CD85262002FAC4A /* KZColorCompareView.m */,
+				1848C6521CD85262002FAC4A /* KZColorPicker.h */,
+				1848C6531CD85262002FAC4A /* KZColorPicker.m */,
+				1848C6541CD85262002FAC4A /* KZColorPickerAlphaSlider.h */,
+				1848C6551CD85262002FAC4A /* KZColorPickerAlphaSlider.m */,
+				1848C6561CD85262002FAC4A /* KZColorPickerBrightnessSlider.h */,
+				1848C6571CD85262002FAC4A /* KZColorPickerBrightnessSlider.m */,
+				1848C6581CD85262002FAC4A /* KZColorPickerHSWheel.h */,
+				1848C6591CD85262002FAC4A /* KZColorPickerHSWheel.m */,
+				1848C65A1CD85262002FAC4A /* KZColorPickerSwatchView.h */,
+				1848C65B1CD85262002FAC4A /* KZColorPickerSwatchView.m */,
+				1848C65C1CD85262002FAC4A /* KZUnitSlider.h */,
+				1848C65D1CD85262002FAC4A /* KZUnitSlider.m */,
+				1848C65E1CD85262002FAC4A /* pickerColorWheel.png */,
+				1848C65F1CD85262002FAC4A /* pickerColorWheel@2x.png */,
+				1848C6601CD85262002FAC4A /* UIColor-Expanded.h */,
+				1848C6611CD85262002FAC4A /* UIColor-Expanded.m */,
+			);
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1848C5FF1CD840BD002FAC4A /* BLE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1848C6171CD840BE002FAC4A /* Build configuration list for PBXNativeTarget "BLE" */;
+			buildPhases = (
+				1848C5FC1CD840BD002FAC4A /* Sources */,
+				1848C5FD1CD840BD002FAC4A /* Frameworks */,
+				1848C5FE1CD840BD002FAC4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLE;
+			productName = BLE;
+			productReference = 1848C6001CD840BD002FAC4A /* BLE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1848C5F81CD840BD002FAC4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lzm;
+				TargetAttributes = {
+					1848C5FF1CD840BD002FAC4A = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 788RY9U2D2;
+					};
+				};
+			};
+			buildConfigurationList = 1848C5FB1CD840BD002FAC4A /* Build configuration list for PBXProject "BLE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1848C5F71CD840BD002FAC4A;
+			productRefGroup = 1848C6011CD840BD002FAC4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1848C5FF1CD840BD002FAC4A /* BLE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1848C5FE1CD840BD002FAC4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1848C6431CD8471C002FAC4A /* scanf@2x.png in Resources */,
+				1848C6131CD840BE002FAC4A /* LaunchScreen.storyboard in Resources */,
+				1848C6651CD85262002FAC4A /* colorPickerKnob@2x.png in Resources */,
+				1848C6631CD85262002FAC4A /* checkerboard@2x.png in Resources */,
+				1848C6621CD85262002FAC4A /* checkerboard.png in Resources */,
+				1848C6451CD84FEA002FAC4A /* scan@2x.png in Resources */,
+				1848C6641CD85262002FAC4A /* colorPickerKnob.png in Resources */,
+				1848C6101CD840BE002FAC4A /* Assets.xcassets in Resources */,
+				1848C60E1CD840BE002FAC4A /* Main.storyboard in Resources */,
+				1848C66E1CD85262002FAC4A /* pickerColorWheel.png in Resources */,
+				1848C66F1CD85262002FAC4A /* pickerColorWheel@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1848C5FC1CD840BD002FAC4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1848C66A1CD85262002FAC4A /* KZColorPickerBrightnessSlider.m in Sources */,
+				1848C6681CD85262002FAC4A /* KZColorPicker.m in Sources */,
+				1848C66B1CD85262002FAC4A /* KZColorPickerHSWheel.m in Sources */,
+				1848C66D1CD85262002FAC4A /* KZUnitSlider.m in Sources */,
+				1848C66C1CD85262002FAC4A /* KZColorPickerSwatchView.m in Sources */,
+				1848C6481CD850AD002FAC4A /* VC1.m in Sources */,
+				1848C6761CD87BA9002FAC4A /* BLETool.m in Sources */,
+				1848C6691CD85262002FAC4A /* KZColorPickerAlphaSlider.m in Sources */,
+				1848C6081CD840BE002FAC4A /* AppDelegate.m in Sources */,
+				1848C6701CD85262002FAC4A /* UIColor-Expanded.m in Sources */,
+				1848C6051CD840BD002FAC4A /* main.m in Sources */,
+				1848C6661CD85262002FAC4A /* HSV.c in Sources */,
+				1848C6671CD85262002FAC4A /* KZColorCompareView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1848C60C1CD840BE002FAC4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1848C60D1CD840BE002FAC4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1848C6111CD840BE002FAC4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1848C6121CD840BE002FAC4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1848C6151CD840BE002FAC4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1848C6161CD840BE002FAC4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1848C6181CD840BE002FAC4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = BLE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lzm.BLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1848C6191CD840BE002FAC4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = BLE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lzm.BLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1848C5FB1CD840BD002FAC4A /* Build configuration list for PBXProject "BLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1848C6151CD840BE002FAC4A /* Debug */,
+				1848C6161CD840BE002FAC4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1848C6171CD840BE002FAC4A /* Build configuration list for PBXNativeTarget "BLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1848C6181CD840BE002FAC4A /* Debug */,
+				1848C6191CD840BE002FAC4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1848C5F81CD840BD002FAC4A /* Project object */;
+}
