@@ -101,7 +101,7 @@ cond(no)->sub->op
 	    Byte bindIndexLow = needIndex & 0xff;
 	    Byte bindIndexHigh = (needIndex >> 8) & 0xff;
 	    
-    	int i == 0
+    	int i = 0;
     	char char_array[30] = {0x00};//定义一个字节数组
     	
 	    char_array[i++] = 0x55;  //16进制
